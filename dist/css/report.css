@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), 
+      url(../assets/images/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.card {
+    /* height: 500px; */
+    width: 300px;
+    border-radius: 0.7rem;
+
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+
+
+}
+
+.card-title {
+    margin: 1rem auto;
+}
+
+.card-content {
+    text-align: justify;
+    margin: 0.5rem 2rem;
+}
+
+.card-btn {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.card-btn .btn {
+    margin: auto;
+    display: block;
+}
